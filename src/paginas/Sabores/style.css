@@ -1,0 +1,41 @@
+.banner2{
+    background-image: url(../../../public/assets/banner-sabores.jpg);
+    background-size: cover;
+    background-color: white;
+}
+
+.sabores h2{
+    margin-top: 50px;
+}
+
+.sabores-boxes{
+    margin: 50px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.sabor-box{
+    width: 290px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 340px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+.sabor-box img{
+    width: 200px;
+}
+
+
+@media(max-width:768px){
+    .banner2{
+        background-size: cover;
+    }
+
+
+}

@@ -1,0 +1,46 @@
+footer{
+    background-color: black;
+    padding: 80px 0;
+}
+
+.rodape-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape-box{
+    color: white;
+}
+.rodape-box p {
+    color: rgb(185, 185, 185);
+}
+
+.credits{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+@media(max-width:768px){
+    .rodape-boxes{
+        flex-direction: column;
+        justify-content: left;
+        
+    }
+    .rodape-box{
+        width: 250px;
+        margin: 20px 0;
+    }
+
+    footer{
+        padding: 50px 0;
+    }
+
+    .credits{
+        font-size: 15px;
+        
+    }
+    
+}
